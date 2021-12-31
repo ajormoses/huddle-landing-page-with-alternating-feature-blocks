@@ -597,7 +597,7 @@ body {
 
 @media only screen and (min-width: 1440px) {
     .container {
-        padding: 20px 100px 20px 100px;
+        padding: 80px 100px 20px 100px;
         background-image: url('./images/bg-hero-desktop.svg');
         height: 570px;
      }
@@ -639,6 +639,4 @@ body {
         height: 50px;
         font-size: 15px;
     }
-
-    
 }
