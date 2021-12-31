@@ -1,0 +1,644 @@
+body {
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+ .container {
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    background-image: url('./images/bg-hero-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(193, 100%, 96%);
+    height: 670px;
+    margin-bottom: 50px;
+ }
+
+ .huddle {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+
+ .huddle div img {
+     width: 100px;
+ }
+
+ .huddletext button {
+     background-color: white;
+     border-radius: 50px;
+     border: 1px solid rgb(179, 175, 175);
+     width: 90px;
+     height: 25px;
+     font-size: 12px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+ }
+
+ .huddletext p {
+    font-weight: bolder;
+ }
+
+ .firstText {
+     position: relative;
+     top: 50px;
+ }
+
+ .firstText h1 {
+     font-size: 25px;
+     padding-bottom: 8px;
+ }
+
+ .firstText p {
+     font-size: 16px;
+     line-height: 25px;
+ }
+
+ .button {
+     position: relative;
+     top: 60px; 
+     width: 250px;
+     height: 40px;
+     background-color: hsl(322, 100%, 66%);
+     border-radius: 50px;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     border: hsl(322, 100%, 66%);
+ }
+
+ .button p {
+     font-size: 15px;
+ }
+
+ .img-illustration img {
+    height: 220px;
+    width: 275px;
+    position: relative;
+    top: 120px;
+ }
+
+ .firstContainer {
+     margin: 30px 20px 20px 20px;
+     padding: 20px;
+     border-radius: 15px;
+     -webkit-box-shadow: 0 0 5px rgb(172, 170, 170);
+     box-shadow: 0 0 5px rgb(172, 170, 170);
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .firstContainer-img img {
+     padding-top: 50px;
+     height: 160px;
+     width: 200px;
+ }
+
+
+ .firstContainer h1 {
+     font-size: 20px;
+     padding-top: 30px;
+     font-weight: bolder;
+ }
+
+ .firstContainer p {
+     font-size: 12px;
+     line-height: 21px;
+     color: hsl(208, 11%, 55%);
+ }
+
+ .secondContainer {
+    margin: 50px 10px 0px 10px;
+    height: 140px;
+    -webkit-box-shadow: 0 0 5px rgb(172, 170, 170);
+    box-shadow: 0 0 5px rgb(172, 170, 170);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    bottom: -40px;
+    background-color: white;
+ }
+
+ .secondContainer h1 {
+     font-size: 15px;
+     font-weight: bolder;
+     padding-top: 35px;
+ }
+
+ .secondContainer button {
+    width: 250px;
+    height: 40px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: hsl(322, 100%, 66%);
+ }
+
+.thirdContainer { 
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-size: 11px;
+    padding: 100px 10px 20px 10px;
+}
+
+.huddleimgg  {
+    filter: brightness(0) invert(1);
+    width: 150px;
+}
+
+ .thirdContainer .phase-one {
+     display: flex;
+     align-items: center;
+ }
+
+ .phaseText {
+     padding: 17px 0 0 22px;
+ }
+
+ .phasetext {
+    padding: 0 0 0 15px;
+ }
+
+ .phase-two {
+     padding-top: 30px;
+ }
+
+ .phase-three {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+    /* bgrounackd-color: hsl(192, 100%, 9%); */
+}
+
+.daughterimg {
+    border: solid 0.5px white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons {
+    color: white;
+}
+
+.phaseFooter {
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 20px 50px 20px 50px;
+        background-image: url('./images/bg-hero-desktop.svg');
+        height: 380px;
+     }
+
+     .desktop-flex {
+         display: flex;
+     }
+
+     .firstText {
+        padding: 20px 30px 0 0;
+        text-align: left;
+    }
+
+    .desktop-flex div .button {
+        position: relative;
+        top: 60px; 
+        width: 200px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+
+    .img-illustration img {
+        height: 270px;
+        width: 310px;
+        position: relative;
+        top: 70px;
+     }
+
+     .firstText h1 {
+        font-size: 20px;
+        padding-bottom: 8px;
+    }
+   
+    .firstText p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .firstContainer {
+        margin: 30px 50px 20px 50px;
+        padding: 10px 20px 20px 50px;
+        display: flex;
+        text-align: left;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstContainer p {
+        padding-right: 70px;
+    }
+
+    .secondContainer {
+        margin: 50px 170px 0px 170px;
+        border-radius: 10px;
+        height: 150px;
+     }
+
+     .secondContainer h1 {
+        font-size: 20px;
+
+    }
+   
+    .secondContainer button {
+        position: relative;
+        top: 5px;
+    }
+
+    .thirdContainer { 
+        background-color: hsl(192, 100%, 9%);
+        color: white;
+        font-size: 8px;
+        padding: 100px 50px 20px 50px;
+    }
+
+    .third-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .phase-one {
+        padding-right: 100px;
+    }
+   
+    .phase-two {
+        display: flex;
+        width: 450px;
+        position: relative;
+        top: -16px;
+    }
+
+
+    .phase-twoo {
+        padding-left: 40px;
+    }
+
+    .phase-three {
+        position: relative;
+        top: -16px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+    
+    .daughterimg {
+        border: solid 0.5px white;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+
+    }
+    
+    .daughterimg a:hover {
+        background-color: red;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding: 70px 50px 20px 50px;
+        background-image: url('./images/bg-hero-desktop.svg');
+        height: 570px;
+     }
+
+     .huddle div img {
+        width: 200px;
+    }
+
+    .huddletext button {
+        background-color: white;
+        border-radius: 50px;
+        border: 1px solid rgb(179, 175, 175);
+        width: 230px;
+        height: 50px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+     .desktop-flex {
+         display: flex;
+     }
+
+    .desktop-flex div .button {
+        position: relative;
+        top: 60px; 
+        width: 250px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .img-illustration img {
+        height: 350px;
+        width: 350px;
+        position: relative;
+        top: 70px;
+     }
+
+     .firstText {
+        position: relative;
+        top: 50px;
+        padding-right: 100px;
+    }
+
+     .firstText h1 {
+        font-size: 45px;
+        padding-bottom: 8px;
+    }
+   
+    .firstText p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .firstContainer {
+        margin: 30px 50px 30px 50px;
+        padding: 30px 20px 30px 50px;
+        display: flex;
+        text-align: left;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstContainer h1 {
+        font-size: 30px;
+    }
+
+    .firstContainer p {
+        padding-right: 150px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .secondContainer {
+        margin: 70px 200px 0px 200px;
+        border-radius: 10px;
+        height: 160px;
+     }
+
+     .secondContainer h1 {
+        font-size: 25px;
+
+    }
+   
+    .secondContainer button {
+        position: relative;
+        top: 5px;
+    }
+
+    .thirdContainer { 
+        background-color: hsl(192, 100%, 9%);
+        color: white;
+        font-size: 8px;
+        padding: 100px 50px 20px 50px;
+    }
+
+    .third-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .phase-one {
+        padding-right: 140px;
+    }
+   
+    .phase-two {
+        display: flex;
+        width: 700px;
+        position: relative;
+        top: -16px;
+    }
+
+
+    .phase-twoo {
+        padding-left: 120px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        padding: 20px 50px 20px 50px;
+        background-image: url('./images/bg-hero-desktop.svg');
+        height: 570px;
+     }
+
+     .huddle div img {
+        width: 200px;
+    }
+
+    .huddletext button {
+        background-color: white;
+        border-radius: 50px;
+        border: 1px solid rgb(179, 175, 175);
+        width: 230px;
+        height: 50px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+     .desktop-flex {
+         display: flex;
+     }
+
+    .desktop-flex div .button {
+        position: relative;
+        top: 60px; 
+        width: 250px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .img-illustration img {
+        height: 450px;
+        width: 600px;
+        position: relative;
+        top: 70px;
+     }
+
+     .firstText {
+        position: relative;
+        top: 50px;
+        padding-right: 100px;
+    }
+
+     .firstText h1 {
+        font-size: 45px;
+        padding-bottom: 8px;
+    }
+   
+    .firstText p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    #firstContain {
+        margin-top: 150px;
+    }
+    .firstContainer {
+        margin: 30px 50px 30px 50px;
+        padding: 30px 50px 30px 80px;
+        display: flex;
+        text-align: left;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstContainer h1 {
+        font-size: 30px;
+    }
+
+    .firstContainer p {
+        padding-right: 300px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .firstContainer-img img {
+        padding-top: 50px;
+        height: 300px;
+        width: 350px;
+    }
+
+    .secondContainer {
+        margin: 70px 200px 0px 200px;
+        border-radius: 10px;
+        height: 160px;
+     }
+
+     .secondContainer h1 {
+        font-size: 25px;
+
+    }
+   
+    .secondContainer button {
+        position: relative;
+        top: 5px;
+    }
+
+    .thirdContainer { 
+        background-color: hsl(192, 100%, 9%);
+        color: white;
+        font-size: 10px;
+        padding: 100px 50px 20px 50px;
+    }
+
+    .third-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .phase-one {
+        padding-right: 140px;
+    }
+   
+    .phase-two {
+        display: flex;
+        width: 700px;
+        position: relative;
+        top: -16px;
+    }
+
+
+    .phase-twoo {
+        padding-left: 120px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        padding: 20px 100px 20px 100px;
+        background-image: url('./images/bg-hero-desktop.svg');
+        height: 570px;
+     }
+
+     .firstContainer {
+        margin: 30px 100px 30px 100px;
+    }
+
+    .img-illustration img {
+        height: 420px;
+        width: 600px;
+        position: relative;
+        top: 70px;
+     }
+
+     .secondContainer {
+        margin: 70px 300px 0px 300px;
+        border-radius: 10px;
+        height: 200px;
+     }
+
+     .thirdContainer { 
+        padding: 100px 100px 20px 100px;
+    }
+
+    .phase-one {
+        padding-right: 300px;
+    }
+
+    .secondContainer h1 {
+        font-size: 35px;
+
+    }
+   
+    .secondContainer button {
+        position: relative;
+        top: 5px;
+        width: 400px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    
+}
